@@ -25,9 +25,9 @@ public class NumberOfIslands {
         stack.push(new int[]{x, y});
         processed[y][x] = true;
 
-        Arrays.binarySearch(new int[]{}, 1, (ip1, ip2) -> {
-
-        })
+//        Arrays.binarySearch(new int[]{}, 1, (ip1, ip2) -> {
+//
+//        })
 
         while(!stack.isEmpty()) {
             int[] coords = stack.pop();
